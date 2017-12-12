@@ -4,6 +4,8 @@
 %include "stdint.i"
 %include "upm_exception.i"
 
+%import "_upm.i"
+
 %apply int { speed_t };
 %apply int { mraa_result_t };
 %apply int { mraa::Result };
